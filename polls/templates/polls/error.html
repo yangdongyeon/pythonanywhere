@@ -1,0 +1,39 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>투표 오류</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+    <style>
+        .error-message {
+            color: red;
+            margin: 20px;
+            text-align: center;
+        }
+        .home-link {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KAIST UDC Voting System</h1>
+    </header>
+    <div class="container">
+        <div class="error-message">
+            <h2>이미 투표하였습니다</h2>
+        </div>
+        <div class="home-link">
+            <a href="{% url 'polls:index' %}">메인 페이지로 돌아가기</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 KAIST UDC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
