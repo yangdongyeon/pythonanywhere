@@ -10,4 +10,6 @@ username : UDC_president
 PW : !todwkghl1234  
 관리자 페이지는 "기본페이지/admin"입니다.  
 
-현재 채팅기능이 추가된 최신버전이 추가되었습니다.
+현재 채팅기능이 추가된 최신버전이 추가되었습니다.  
+https://github.com/yangdongyeon/pannorm  
+신버전 링크
